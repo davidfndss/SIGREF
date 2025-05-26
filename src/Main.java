@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println("----------------------------------------------------");
         System.out.println("Seja bem vindo ao SIGREF");
-        System.out.println("( Sistema de Gestão de Remunerações e Financeiro )");
+        System.out.println("( Sistema de Gestao de Remuneracoes e Financeiro )");
         System.out.println("----------------------------------------------------");
 
         int ano = 0;
@@ -34,25 +34,25 @@ public class Main {
                 if (ano >= 1900 && ano <= 2100) {
                     break;
                 } else {
-                    System.out.println("Ano inválido! Digite um ano entre 1900 e 2100.");
+                    System.out.println("Ano invalido! Digite um ano entre 1900 e 2100.");
                 }
             } else {
-                System.out.println("Entrada inválida! Digite um número inteiro.");
+                System.out.println("Entrada invalida! Digite um numero inteiro.");
                 scanner.next();
             }
         }
 
         while (true) {
-            System.out.print("Digite o mês para consulta (1 a 12): ");
+            System.out.print("Digite o mes para consulta (1 a 12): ");
             if (scanner.hasNextInt()) {
                 mes = scanner.nextInt();
                 if (mes >= 1 && mes <= 12) {
                     break;
                 } else {
-                    System.out.println("Mês inválido! Digite um número entre 1 e 12.");
+                    System.out.println("Mes invalido! Digite um numero entre 1 e 12.");
                 }
             } else {
-                System.out.println("Entrada inválida! Digite um número inteiro.");
+                System.out.println("Entrada invalida! Digite um numero inteiro.");
                 scanner.next();
             }
         }
@@ -63,7 +63,7 @@ public class Main {
         Funcionario jorge = new Funcionario("Jorge Carvalho", Cargo.SECRETARIO, LocalDate.of(2018, 1, 1));
         Funcionario maria = new Funcionario("Maria Souza", Cargo.SECRETARIO, LocalDate.of(2015, 12, 1));
         Funcionario ana = new Funcionario("Ana Silva", Cargo.VENDEDOR, LocalDate.of(2021, 12, 1));
-        Funcionario joao = new Funcionario("João Mendes", Cargo.VENDEDOR, LocalDate.of(2021, 12, 1));
+        Funcionario joao = new Funcionario("Joao Mendes", Cargo.VENDEDOR, LocalDate.of(2021, 12, 1));
         Funcionario juliana = new Funcionario("Juliana Alves", Cargo.GERENTE, LocalDate.of(2017, 7, 1));
         Funcionario bento = new Funcionario("Bento Albino", Cargo.GERENTE, LocalDate.of(2014, 3, 1));
 
@@ -99,12 +99,12 @@ public class Main {
         System.out.println("Resultados para " + mesAno + ":");
         System.out.println("----------------------------------------------------");
 
-        System.out.println("ValorTotal pago no mês: " + totalPago);
-        System.out.println("Total pago em salários no mês: " + totalSalarios);
-        System.out.println("Total pago em benefícios no mês: " + totalBeneficios);
-        System.out.println("Funcionário que recebeu mais no mês: " + maiorRecebedor);
-        System.out.println("Funcionário que recebeu mais benefícios: " + maiorBeneficiario);
-        System.out.println("Vendedor que mais vendeu no mês: " + maiorVendedor);
+        System.out.println("Valor Total pago no mes: " + totalPago);
+        System.out.println("Total pago em salarios no mes: " + totalSalarios);
+        System.out.println("Total pago em benefícios no mes: " + totalBeneficios);
+        System.out.println("Funcionario que recebeu mais no mes: " + maiorRecebedor);
+        System.out.println("Funcionario que recebeu mais beneficios: " + maiorBeneficiario);
+        System.out.println("Vendedor que mais vendeu no mes: " + maiorVendedor);
 
         System.out.println();
     }
