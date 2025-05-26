@@ -1,7 +1,41 @@
-# SIGREF 
+# SIGREF
 
 > Sistema de Gestão de Remunerações - Financeiro - Java - Orientação a Objetos
 
+
+## Pré-requisitos
+
+Antes de rodar o projeto, você precisará de:
+
+- [Git](https://git-scm.com/downloads)
+- [Java](https://www.java.com/pt-BR/download/)
+
+## Como Rodar o Projeto:
+
+### 1. Clone o projeto:
+   Em um terminal execute:
+```
+git clone https://github.com/davidfndss/SIGREF
+```
+### 2. Acesse o diretório do projeto:
+```
+cd SIGREF/src
+```
+### 3. Compile o projeto:
+  Execute o seguinte comando para compilar o arquivo principal:
+```
+javac Main.java
+```
+### 4. Execute o projeto:
+  Rode o programa com:
+```
+java Main
+```
+  pronto! seu clone do SIGREF estará rodando no terminal, como segue o exemplo da imagem abaixo ↓
+ <br>
+
+#### Exemplo de uso:
+![image](https://github.com/user-attachments/assets/88a5f95b-358d-43b8-ab5a-5ca07ec0d189)
 <br>
 
 # Desafio proposto:
@@ -42,3 +76,9 @@ Utilizando os conceitos de Orientação a Objetos, implemente em Java:
 - ✅ Um método que receba uma lista de funcionários, mês e ano, e retorne o **funcionário que recebeu o valor mais alto no mês**.
 - ✅ Um método que receba uma lista somente com os funcionários que recebem benefícios, mês e ano, e retorne o **nome do funcionário que recebeu o valor mais alto em benefícios no mês**.
 - ✅ Um método que receba uma lista de vendedores, mês e ano, e retorne **o que mais vendeu no mês**.
+
+<br>
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-crimson.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
